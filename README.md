@@ -1,6 +1,6 @@
 # Lerna + monorepo +GitHub Actions Release Flow
 
-This repository is an example of monorepo release flow.
+This repository is an example of monorepo release flow. Testing purpose for github
 
 ## Purposes
 
