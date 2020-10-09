@@ -1,6 +1,6 @@
 {
-  "name": "@azu/mono-two",
-  "version": "2.0.1",
+  "name": "@brahmdev/mono-two",
+  "version": "1.1.0",
   "description": "",
   "homepage": "https://github.com/azu/lerna-monorepo-github-actions-release/tree/master/packages/mono-two/",
   "bugs": {
@@ -12,7 +12,7 @@
     "directory": "packages/mono-two"
   },
   "license": "MIT",
-  "author": "azu",
+  "author": "brahmdev",
   "files": [
     "bin/",
     "lib/",
@@ -25,7 +25,7 @@
   },
   "scripts": {},
   "dependencies": {
-    "@azu/mono-one": "^2.0.1"
+    "@brahmdev/mono-one": "^1.1.0"
   },
   "publishConfig": {
     "access": "public"
