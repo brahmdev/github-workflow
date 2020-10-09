@@ -1,4 +1,4 @@
-# Lerna + monorepo +GitHub Actions Release Flow
+# Lerna + monorepo +GitHub Actions Release Flow Random branch
 
 This repository is an example of monorepo release flow. Testing purpose for github
 
