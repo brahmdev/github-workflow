@@ -28,7 +28,7 @@
     "postversionup:minor": "npm run commit-version",
     "postversionup:major": "npm run commit-version",
     "commit-version": "git add . && git commit -m \"chore(release): publish `node -p 'require(\"./lerna.json\").version'`\"",
-    "release": "lerna publish from-package"
+    "release": "lerna publish --contents /home/brahmdev/Projects/SmartBear/github-workflow"
   },
   "devDependencies": {
     "@monorepo-utils/collect-changelog": "^2.2.0",
