@@ -51,7 +51,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create Git Tag
         if: steps.tag_check.outputs.exists_tag == 'false'
-        uses: brahmdev/action-package-version-to-git-tag@v1
+        uses: azu/action-package-version-to-git-tag@v1
         with:
           version: ${{ env.CURRENT_VERSION }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -72,13 +72,6 @@ jobs:
             ${{ github.event.pull_request.body }}
           draft: false
           prerelease: false
-      - name: Publish
-        if: steps.tag_check.outputs.exists_tag == 'false'
-        run: |
-          yarn lerna publish from-package --yes
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/github-script@0.8.0
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
