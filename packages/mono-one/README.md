@@ -1,6 +1,6 @@
 # @brahmdev/mono-one
 
-One　
+Mono-One　
 
 ## Install
 
