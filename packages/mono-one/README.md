@@ -1,4 +1,4 @@
-# @azu/mono-one
+# @brahmdev/mono-one
 
 One　
 
